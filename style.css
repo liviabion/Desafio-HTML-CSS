@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+h1, h2, h3, p{
+    font-family: "Montserrat";;
+}
+
 body{
     background-color:#E5E5E5;
 }
@@ -10,13 +14,13 @@ body{
 nav{
     background-color: rgba(255, 255, 255, 0.6);
     display: flex;
+    position: fixed;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    Width: 1440px;
-    Height: 199px;
+    Width: 90%;
+    Height: 119px;
     padding: 40px 114px;
-    position: absolute;
 }
 
 #IceCream{
@@ -24,12 +28,46 @@ nav{
     height: 119px;
 }
 
-.card{
+.search{
+    background-color: rgba(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 16px;
+    width: 450px;
+    height: 61px;
+    border: 0.5px solid rgba(96, 96, 96, 0.3);
+    border-radius: 8px;
+}
 
+#SearchBar{
+    color:rgba(96, 96, 96, 0.6);
+}
+
+.card{
+    display: flex;
+    width: 1212px;
+    height: 512px;
+    padding-left: 114px;
+    padding-top: 279px;
+}
+
+.tablito{
+    display: flex;
+    flex-direction: column;
 }
 
 footer{
-    background-color: rgba(242, 242, 242);
-
+    background-color: rgba(242, 242, 242);  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    Height: 155.02px;
+    Width: 90%;
+    padding: 48px 114px;
+    gap: 292px;
 }
+
 
