@@ -19,13 +19,13 @@ nav{
     justify-content: space-between;
     align-items: center;
     Width: 90%;
-    Height: 119px;
+    Height: 100px;
     padding: 40px 114px;
 }
 
 #IceCream{
-    width: 120px;
-    height: 119px;
+    width: 110px;
+    height: 110px;
 }
 
 .search{
@@ -35,8 +35,8 @@ nav{
     align-items: center;
     padding: 8px 16px;
     gap: 16px;
-    width: 450px;
-    height: 61px;
+    width: 400px;
+    height: 30px;
     border: 0.5px solid rgba(96, 96, 96, 0.3);
     border-radius: 8px;
 }
@@ -109,14 +109,24 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    Height: 155.02px;
-    Width: 90%;
+    Height: 120px;
     padding: 48px 114px;
-    gap: 292px;
+}
+
+.contact{
+    display: flex;
+    width: 140px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #IceCream2{
-    Height: 60px;
-    Width: 60px;
+    Height: 70px;
+    Width: 70px;
+}
+
+footer h3{
+    font-size: 15px;
+    font-style: normal;
 }
 
