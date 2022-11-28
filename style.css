@@ -1,20 +1,25 @@
+/*Zerando padding e margin*/
 * {
     margin: 0;
     padding: 0;
 }
 
+/*Colando a fonte em todas as tags de texto que uso no projeto*/
 h1, h2, h3, p{
     font-family: "Montserrat";;
 }
 
+/*Cor de fundo*/
 body{
     background-color:#E5E5E5;
 }
 
+/*Header config*/
 header{
     position: relative;
 }
 
+/*Navbar config*/
 nav{
     background-color: rgba(255, 255, 255, 0.6);
     display: flex;
@@ -27,11 +32,13 @@ nav{
     padding: 40px 114px;
 }
 
+/*Tamanho da logo da navbar*/
 #IceCream{
     width: 110px;
     height: 110px;
 }
 
+/*Container que engloba todo a barra de pesquisa*/
 .container-search{
     background-color: rgba(255, 255, 255);
     display: flex;
@@ -46,10 +53,12 @@ nav{
     border-radius: 8px;
 }
 
+/*Cor da fonte da barra*/
 #SearchBar{
     color:rgba(96, 96, 96, 0.6);
 }
 
+/*Box chamado card que engloba todos os picolés*/
 .card{
     display: flex;
     align-items: center;
@@ -57,6 +66,7 @@ nav{
     padding: 250px 0px 80px 0px;
 }
 
+/*Colocando padding em todas as tags do card*/
 .card h2{
     padding-bottom: 10px;
 }
@@ -69,24 +79,28 @@ nav{
     padding-bottom: 25px;
 }
 
+/*Sections dos grupos config*/
 .section-1, .section-2{
     display: flex;
     flex-direction: row;
 }
 
+/*Tamanho e padding dos sorvetes menores*/
 #BrigadeiroImg, #CeuAzulImg, #KibonbonImg, #MinionsImg{
     width: 160px;
     height: 160px;
     padding: 20px;
 }
 
-.box-tablito, .box-column-2, .box-column-4, .box-chicabon{
+/*Box com as colunas com mais de um sorvete (config) */
+.box-column-2, .box-column-4{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+/*Box com cada sorvete (config)*/
 .box-tablito, .box-brigadeiro, .box-ceuazul, .box-chicabon, .box-kibonbon, .box-minions{
     display: flex;
     flex-direction: column;
@@ -97,12 +111,14 @@ nav{
     margin: 20px;
 }
 
+/*Imagens dos sorvetes maiores (tamanho e padding)*/
 #TablitoImg, #ChicaBonImg{
     width: 230px;
     height: 230px;
     padding: 20px;
 }
 
+/*Descrição dos sorvetes config*/
 .box-descricaotablito, .box-descricaochicabon{
     width: 270px;
     padding: 7px 20px 7px 20px; 
@@ -119,6 +135,7 @@ nav{
     margin-bottom: 20px;
 }
 
+/*Footer config*/
 footer{
     background-color: rgba(242, 242, 242);  
     display: flex;
@@ -130,6 +147,7 @@ footer{
     position: relative;
 }
 
+/*Container para os contatos*/
 .container-contact{
     display: flex;
     width: 140px;
@@ -137,18 +155,22 @@ footer{
     align-items: center;
 }
 
+/*Tamanho do logo do footer*/
 #IceCream2{
     Height: 70px;
     Width: 70px;
 }
 
+/*Tag h3 no footer*/
 footer h3{
     font-size: 15px;
     font-style: normal;
 }
 
+/*Iniciando responsividade*/
 @media (max-width: 1155px){
 
+    /*Adequando o layout da navbar(reprimindo a barra de pesquisa)*/
     nav{
         padding: 0%;
         align-items: center;
@@ -174,19 +196,23 @@ footer h3{
         display: none;
     }
 
+    /*Adequando o card principal*/
     .card{
         padding-top: 180px;
         flex-direction: column;
     }
 
+    /*Mudando a direção para se adequar ao modelo*/
     .box-tablito .box-column-2{
         flex-direction: row;
     }
 
+    /*Alternando a direção do segundo bloco de picolés*/
     .section-2{
         flex-direction: row-reverse;
     }
 
+    /*Adequando tamanho de iamgens e dos seus boxes*/
     #BrigadeiroImg, #CeuAzulImg, #KibonbonImg, #MinionsImg{
         width: 50%;
         min-width: 60px;
@@ -218,6 +244,7 @@ footer h3{
         margin-bottom: 8px;
     }
 
+    /*Adequando fontes*/
     .card h2{
         font-size: medium;
     }
@@ -231,6 +258,7 @@ footer h3{
         padding-bottom: 15px;
     }
 
+    /*Adequando o footer, colocando ele em formato de coluna e retirando a logo do meio*/
     footer{
         align-items: center;
         justify-content: center;
