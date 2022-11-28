@@ -32,7 +32,7 @@ nav{
     height: 110px;
 }
 
-.search{
+.container-search{
     background-color: rgba(255, 255, 255);
     display: flex;
     flex-direction: row;
@@ -57,17 +57,6 @@ nav{
     padding: 250px 0px 80px 0px;
 }
 
-.section1{
-    display: flex;
-    flex-direction: row;
-}
-
-.section2{
-    display: flex;
-    flex-direction: row;
-}
-
-
 .card h2{
     padding-bottom: 10px;
 }
@@ -80,9 +69,9 @@ nav{
     padding-bottom: 25px;
 }
 
-.section1, .section2{
+.section-1, .section-2{
+    display: flex;
     flex-direction: row;
-    flex: none
 }
 
 #BrigadeiroImg, #CeuAzulImg, #KibonbonImg, #MinionsImg{
@@ -91,14 +80,14 @@ nav{
     padding: 20px;
 }
 
-.tablito, .coluna2, .coluna4, .chicabon{
+.box-tablito, .box-column-2, .box-column-4, .box-chicabon{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.tablito, .brigadeiro, .ceuazul, .chicabon, .kibonbon, .minions{
+.box-tablito, .box-brigadeiro, .box-ceuazul, .box-chicabon, .box-kibonbon, .box-minions{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -114,12 +103,12 @@ nav{
     padding: 20px;
 }
 
-.descricaotablito, .descricaochicabon{
+.box-descricaotablito, .box-descricaochicabon{
     width: 270px;
     padding: 7px 20px 7px 20px; 
 }
 
-.precotablito, .precochicabon{
+.box-precotablito, .box-precochicabon{
     background-color: rgba(249, 199, 191, 0.5);
     display: flex;
     border-radius: 8px;
@@ -141,7 +130,7 @@ footer{
     position: relative;
 }
 
-.contact{
+.container-contact{
     display: flex;
     width: 140px;
     justify-content: space-between;
@@ -172,7 +161,7 @@ footer h3{
         height: 70px;
     }
 
-    .search{
+    .container-search{
         height: 40px;
         width: 40px;
         padding: 0%;
@@ -190,11 +179,11 @@ footer h3{
         flex-direction: column;
     }
 
-    .tablito .coluna2{
+    .box-tablito .box-column-2{
         flex-direction: row;
     }
 
-    .section2{
+    .section-2{
         flex-direction: row-reverse;
     }
 
@@ -212,17 +201,17 @@ footer h3{
         max-width: 70px;
     }
     
-    .descricaotablito, .descricaochicabon{
+    .box-descricaotablito, .box-descricaochicabon{
         width: 90%;
         max-width: 200px;
         
     }
 
-    .tablito, .chicabon{
+    .box-box-tablito, .box-box-chicabon{
         max-width: 200px;
     }
     
-    .precotablito, .precochicabon{
+    .box-precotablito, .box-precochicabon{
         border-radius: 8px;
         width: 80px;
         height: 30px;
@@ -249,7 +238,7 @@ footer h3{
         padding: 20px 0px;
     }
 
-    .contact{
+    .container-contact{
         display: flex;
         width: 140px;
         justify-content: space-between;
