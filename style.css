@@ -18,9 +18,9 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    Width: 90%;
     Height: 100px;
     padding: 40px 114px;
+    position: relative;
 }
 
 #IceCream{
@@ -35,8 +35,9 @@ nav{
     align-items: center;
     padding: 8px 16px;
     gap: 16px;
-    width: 400px;
+    width: 350px;
     height: 30px;
+    margin-right: 90px;
     border: 0.5px solid rgba(96, 96, 96, 0.3);
     border-radius: 8px;
 }
@@ -49,7 +50,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 280px 0px 80px 0px;
+    padding: 80px 0px 80px 0px;
 }
 
 .card h2{
@@ -111,6 +112,8 @@ footer{
     align-items: center;
     Height: 120px;
     padding: 48px 114px;
+    position: relative;
+
 }
 
 .contact{
@@ -130,3 +133,41 @@ footer h3{
     font-style: normal;
 }
 
+@media (max-width: 1155px){
+
+    nav{
+        padding: 0%;
+    }
+
+
+    #IceCream{
+        width: 70px;
+        height: 70px;
+    }
+
+    .search{
+        height: 40px;
+        width: 40px;
+        padding: 0%;
+        align-items: center;
+        justify-content: center;
+        margin: 0%;
+    }
+
+    #SearchBar{
+        display: none;
+    }
+
+    .card{
+        flex-direction:column;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    #IceCream2{
+        display: none;
+    }
+
+}
