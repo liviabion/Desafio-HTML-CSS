@@ -11,6 +11,10 @@ body{
     background-color:#E5E5E5;
 }
 
+header{
+    position: relative;
+}
+
 nav{
     background-color: rgba(255, 255, 255, 0.6);
     display: flex;
@@ -50,9 +54,19 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 280px 0px 80px 0px;
+    padding: 250px 0px 80px 0px;
+}
+
+.section1{
+    display: flex;
     flex-direction: row;
 }
+
+.section2{
+    display: flex;
+    flex-direction: row;
+}
+
 
 .card h2{
     padding-bottom: 10px;
@@ -80,6 +94,8 @@ nav{
 .tablito, .coluna2, .coluna4, .chicabon{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .tablito, .brigadeiro, .ceuazul, .chicabon, .kibonbon, .minions{
@@ -119,7 +135,6 @@ footer{
     Height: 120px;
     padding: 48px 114px;
     position: relative;
-
 }
 
 .contact{
@@ -143,12 +158,16 @@ footer h3{
 
     nav{
         padding: 0%;
+        align-items: center;
+        justify-content: left;
+        padding: 10px;
     }
 
 
     #IceCream{
         width: 70px;
         height: 70px;
+        margin: 100px;
     }
 
     .search{
@@ -165,17 +184,82 @@ footer h3{
     }
 
     .card{
-        flex-direction: row;
+        padding-top: 180px;
+        flex-direction: column;
     }
-
-    
 
     .tablito .coluna2{
         flex-direction: row;
     }
 
-    footer{
+    .section2{
+        flex-direction: row-reverse;
+    }
+
+    #BrigadeiroImg, #CeuAzulImg, #KibonbonImg, #MinionsImg{
+        width: 100px;
+        height: 100px;
+        padding: 12px;
+    }
+    
+    .tablito, .coluna2, .coluna4, .chicabon{
+        display: flex;
         flex-direction: column;
+    }
+    
+    .tablito, .brigadeiro, .ceuazul, .chicabon, .kibonbon, .minions{
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 16px;
+        margin: 12px;
+    }
+    
+    #TablitoImg, #ChicaBonImg{
+        width: 140px;
+        height: 140px;
+        padding: 12px;
+    }
+    
+    .descricaotablito, .descricaochicabon{
+        width: 200px;
+        padding: 2px 12px 2px 12px; 
+    }
+    
+    .precotablito, .precochicabon{
+        background-color: rgba(249, 199, 191, 0.5);
+        display: flex;
+        border-radius: 8px;
+        align-items: center;
+        justify-content: center;
+        width: 80px;
+        height: 25px;
+        margin-bottom: 8px;
+    }
+
+    .card h2{
+        font-size: 18px;
+    }
+
+    .card h3{
+        font-size: 15px;
+    }
+
+    .card p{
+        font-size: 15px;
+    }
+
+    footer{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+
+    .contact{
+        display: flex;
+        width: 140px;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
     }
 
     #IceCream2{
