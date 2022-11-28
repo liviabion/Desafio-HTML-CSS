@@ -19,8 +19,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     Height: 100px;
+    width: 100%;
     padding: 40px 114px;
-    position: relative;
 }
 
 #IceCream{
@@ -37,7 +37,7 @@ nav{
     gap: 16px;
     width: 350px;
     height: 30px;
-    margin-right: 90px;
+    margin-right: 200px;
     border: 0.5px solid rgba(96, 96, 96, 0.3);
     border-radius: 8px;
 }
@@ -50,7 +50,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 80px 0px 80px 0px;
+    padding: 280px 0px 80px 0px;
+    flex-direction: row;
 }
 
 .card h2{
@@ -63,6 +64,11 @@ nav{
 
 .card p{
     padding-bottom: 25px;
+}
+
+.section1, .section2{
+    flex-direction: row;
+    flex: none
 }
 
 #BrigadeiroImg, #CeuAzulImg, #KibonbonImg, #MinionsImg{
@@ -159,7 +165,13 @@ footer h3{
     }
 
     .card{
-        flex-direction:column;
+        flex-direction: row;
+    }
+
+    
+
+    .tablito .coluna2{
+        flex-direction: row;
     }
 
     footer{
