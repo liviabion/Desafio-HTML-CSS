@@ -6,7 +6,7 @@
 
 /*Colando a fonte em todas as tags de texto que uso no projeto*/
 h1, h2, h3, p{
-    font-family: "Montserrat";;
+    font-family: "Montserrat";
 }
 
 /*Cor de fundo*/
@@ -53,9 +53,13 @@ nav{
     border-radius: 8px;
 }
 
-/*Cor da fonte da barra*/
+/*Barra de pesquisa*/
 #SearchBar{
     color:rgba(96, 96, 96, 0.6);
+    font-family: "Montserrat";
+    font-size: medium;
+    background-color: transparent;
+    border: none;
 }
 
 /*Box chamado card que engloba todos os picolés*/
@@ -175,7 +179,7 @@ footer h3{
         padding: 0%;
         align-items: center;
         justify-content: center;
-        gap: 50%;
+        gap: 60%;
     }
 
     #IceCream{
